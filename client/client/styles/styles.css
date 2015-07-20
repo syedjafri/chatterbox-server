@@ -1,0 +1,95 @@
+body {
+    background: #eee;
+    text-align: center;
+    padding: 0 25px;
+    font-family: '8BITWONDERNominal', sans-serif;
+}
+
+#main {
+    width: 500px;
+    margin: auto;
+    text-align: left;
+    /*background: #FFD567;*/
+    padding: 50px 60px;
+    border: solid #ddd;
+    border-width: 0 1px 1px 1px;
+    background-image: url(https://s-media-cache-ak0.pinimg.com/236x/02/94/b6/0294b6c122ec4ecd4495354112043be3.jpg);
+}
+
+#main h1 {
+    margin-top: 0;
+    font-size: 35px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+#main h1 span {
+    font-style:italic;
+}
+
+#main ul {
+    padding-left: 20px;
+}
+
+#main .error {
+    border: 1px solid red;
+    background: #FDEFF0;
+    padding: 20px;
+}
+
+#main .success {
+    margin-top: 25px;
+}
+
+#main .success code {
+    font-size: 12px;
+    color: green;
+    line-height: 13px;
+}
+
+#send {
+    padding: 20px;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+#form input[type=text] {
+    margin-right: 10px;
+    width: 70%;
+    font-size: 12px;
+    padding: 5px;
+}
+
+#message {
+    width: 60%;
+    padding: 6px;
+}
+
+#chats .username {
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+#chats .username:hover {
+    cursor: pointer;
+}
+
+.spinner {
+    float: right;
+    height: 46px;
+    margin-bottom: 5px;
+}
+
+.spinner img {
+    padding: 10px;
+}
+
+.bold {
+    color: #20AD36;
+}
+
+.message-block {
+    padding: 4px 4px;
+    margin: 8px 0;
+    background-color: #ADCCFF;
+}
