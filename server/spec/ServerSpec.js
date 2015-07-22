@@ -96,7 +96,10 @@ it('Should respond with messages that were previously posted', function() {
 
     expect(res._responseCode).to.equal(200);
     var messages = JSON.parse(res._data).results;
+    // console.log("Spec Got:")
+    // console.log(messages[0].username)
     expect(messages.length).to.be.above(0);
+
     expect(messages[0].username).to.equal('Jono');
     expect(messages[0].message).to.equal('Do my bidding!');
     expect(res._ended).to.equal(true);
